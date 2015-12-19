@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tuber</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_find_tutor">FindTutorActivity</string>
+    <string name="title_activity_browse_tutors">BrowseTutorsActivity</string>
+    <string name="title_activity_become_atutor">BecomeATutorActivity</string>
+    <string name="title_activity_learn_more">LearnMoreActivity</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tutor_search_tab_title">Search</string>
+    <string name="message_list_tab_title">Messages</string>
+    <string name="find_tutor_now_tab_title">Find Tutor Now</string>
+    <string name="calendar_tab_title">Calendar</string>
+    <string name="profile_tab_title">Profile</string>
+    <string name="string_enter_name">Enter your name</string>
+    <string name="string_choose_username">Choose your username</string>
+    <string name="string_choose_password">Choose your password</string>
+    <string name="string_enter_email">Enter your email</string>
+    <string name="button_register">Register</string>
+
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+</resources>

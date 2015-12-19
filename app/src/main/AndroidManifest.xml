@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.carsonjones.tuber" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" >
+        </activity>
+        <activity
+            android:name=".LandingPage"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FindTutorActivity"
+            android:label="@string/title_activity_find_tutor"
+            android:parentActivityName=".LandingPage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BrowseTutorsActivity"
+            android:label="@string/title_activity_browse_tutors"
+            android:parentActivityName=".LandingPage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BecomeATutorActivity"
+            android:label="@string/title_activity_become_atutor"
+            android:parentActivityName=".LandingPage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LearnMoreActivity"
+            android:label="@string/title_activity_learn_more"
+            android:parentActivityName=".LandingPage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/title_activity_sign_in"
+            android:parentActivityName=".LandingPage" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppThemeActionBar">
+        </activity>
+    </application>
+
+</manifest>
